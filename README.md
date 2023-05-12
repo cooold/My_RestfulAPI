@@ -2,7 +2,8 @@
 *.net 6 API*   
   
 Table set  
-![GITHUB]( https://i.imgur.com/tyjJwC4.png "SQL")
+Staff.Id = InfoMessages.staffId  
+![GITHUB](https://i.imgur.com/bUTn4G3.png "SQL")
 * Get
   * https://localhost:7249/api/InfoMessages
   * 查詢所有訊息
