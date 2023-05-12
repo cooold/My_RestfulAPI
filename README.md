@@ -29,7 +29,7 @@ Staff.Id = InfoMessages.staffId
   * 更新{id}的訊息
   * https://localhost:7249/api/Staff/15
   * 更新{id}的職員
-Patch
+* Patch
   * https://localhost:7249/api/InfoMessages/3
   * 更新{id}的訊息
   * https://localhost:7249/api/Staff/1
