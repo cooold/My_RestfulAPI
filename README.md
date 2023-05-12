@@ -20,7 +20,7 @@ Table set
 * Post
   * https://localhost:7249/api/InfoMessages
   * 新增訊息
-  * https://localhost:7249/api/Staff/
+  * https://localhost:7249/api/Staff
   * 新增職員
 
 * Put
