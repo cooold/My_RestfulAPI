@@ -1,3 +1,4 @@
+using firstAPI_2023_04_19.Filter;
 using firstAPI_2023_04_19.IService;
 using firstAPI_2023_04_19.Models;
 using firstAPI_2023_04_19.Service;
@@ -9,6 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllers()
     .AddNewtonsoftJson();
+builder.Services.AddScoped<SampleExceptionFilter>();
 builder.Services.AddScoped<IQueryInfoMessages, InfoMessagesService>();
 builder.Services.AddScoped<IQueryStaff, StaffService>();
 builder.Services.AddDbContext<RestfulApiTestContext>(options =>
