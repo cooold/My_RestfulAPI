@@ -5,7 +5,7 @@ namespace firstAPI_2023_04_19.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [ServiceFilter(typeof(SampleExceptionFilter))]
+    //[ServiceFilter(typeof(SampleExceptionFilter))]
 
     public class ExceptionController : ControllerBase
     {

@@ -10,7 +10,11 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllers()
     .AddNewtonsoftJson();
-builder.Services.AddScoped<SampleExceptionFilter>();
+builder.Services.AddControllersWithViews(options =>
+{
+    options.Filters.Add<SampleExceptionFilter>();
+});
+//builder.Services.AddScoped<SampleExceptionFilter>();
 builder.Services.AddScoped<IQueryInfoMessages, InfoMessagesService>();
 builder.Services.AddScoped<IQueryStaff, StaffService>();
 builder.Services.AddDbContext<RestfulApiTestContext>(options =>

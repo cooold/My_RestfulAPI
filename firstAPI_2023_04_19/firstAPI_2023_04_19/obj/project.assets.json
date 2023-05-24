@@ -3874,11 +3874,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gccbg\\Desktop\\api\\My_RestfulAPI\\firstAPI_2023_04_19\\firstAPI_2023_04_19\\firstAPI_2023_04_19.csproj",
+      "projectUniqueName": "C:\\Users\\gccbg\\Desktop\\AA\\My_RestfulAPI\\firstAPI_2023_04_19\\firstAPI_2023_04_19\\firstAPI_2023_04_19.csproj",
       "projectName": "firstAPI_2023_04_19",
-      "projectPath": "C:\\Users\\gccbg\\Desktop\\api\\My_RestfulAPI\\firstAPI_2023_04_19\\firstAPI_2023_04_19\\firstAPI_2023_04_19.csproj",
+      "projectPath": "C:\\Users\\gccbg\\Desktop\\AA\\My_RestfulAPI\\firstAPI_2023_04_19\\firstAPI_2023_04_19\\firstAPI_2023_04_19.csproj",
       "packagesPath": "C:\\Users\\gccbg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gccbg\\Desktop\\api\\My_RestfulAPI\\firstAPI_2023_04_19\\firstAPI_2023_04_19\\obj\\",
+      "outputPath": "C:\\Users\\gccbg\\Desktop\\AA\\My_RestfulAPI\\firstAPI_2023_04_19\\firstAPI_2023_04_19\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
